@@ -1,0 +1,171 @@
+eh/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-family:"Arial Black", Gadget, sans-serif;
+  color:rgb(255, 102, 163);
+  font-size: 65pt;
+  text-align: center;
+}
+
+ul{list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    text-align: center;   
+}
+li{
+  text-align:center;
+  display:inline-block
+}
+
+.nav li a:hover{
+  color:rgb(255, 102, 163)
+} 
+
+.nav li a{
+  color:rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 68px;
+  text-decoration:none;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 20pt;
+} 
+
+footer{
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color:rgb(255, 179, 179);
+  position:absolute;
+  bottom:-50%;
+  font-size: 30pt;
+}
+
+.name{
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color:rgb(217, 179, 255);
+  text-align:center;
+  line-height:90%;
+  font-size: 30pt;
+}
+
+header{
+  font-family:"Arial Black", Gadget, sans-serif;
+  color:rgb(255, 102, 163);
+  font-size: 60pt;
+  text-align: center;
+}
+
+/* article h1 style */
+article h1{
+  font-family:"Arial Black", Gadget, sans-serif;
+  color:rgb(204, 153, 255);
+  text-align:center;
+  font-size: 40pt;
+  letter-spacing: 20px
+}
+
+.intr h2{
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color:rgb(255, 255, 255);
+  text-indent: 5%;
+  font-size: 25pt;
+}
+
+.intr p{
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color:rgb(255, 255, 255);
+  width: 75%;
+  margin-left:auto;
+  margin-right:auto;
+  font-size: 17pt;
+  line-height:200%;
+}
+
+/* style for page photos */
+.photo{
+  margin-left: auto; 
+  margin-right:auto;
+  display:block;
+  max-width:100%;
+  margin-top:45px;
+  margin-bottom:45px;
+  height:auto;
+  width:auto;
+}
+
+.des{
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color:rgb(255, 255, 255);
+  font-size: 30pt;
+  text-align: center;
+  letter-spacing: 20px
+}
+
+.lea a{
+  color:rgb(255, 255, 255);
+  font-family:"Arial Black", Gadget, sans-serif;
+  text-align:center;
+  display:inline-block;
+  font-size: 18pt;
+}
+
+.lea{
+  margin-top:45px;
+  margin-bottom:45px;
+}
+.card-title{
+  color:rgb(0, 0, 0);
+  font-family:"Arial Black", Gadget, sans-serif;
+  text-align:center;
+  font-size: 30pt;
+}
+
+.card{
+  margin-left: auto; 
+  margin-right:auto;
+  display:block;
+  max-width:100%
+}
+
+/* table */
+th.col,td.col{
+  border: 1px solid rgb(255, 204, 204);
+}
+table {
+  width:100%;
+  margin-left:auto;
+  margin-right:auto; 
+  margin-top:45px;
+  text-align:center; 
+}
+
+th.col,td.col{
+    color:rgb(255, 255, 255);
+}
+
+th.col {
+  font-weight: bold;
+  font-size: 25pt;
+}
+
+tr.even {
+  background-color: rgb(202, 220, 249); 
+}
+
+.even tr:nth-child(even){
+    background-color:rgb(244, 193, 134);
+}
+
+td.col{
+  font-size: 18pt;
+}
+
+.card-body a {
+  text-align:center;
+  width:100%;
+  font-size: 18pt;
+}
